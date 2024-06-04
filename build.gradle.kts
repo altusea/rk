@@ -6,7 +6,7 @@ group = "me.play"
 version = "1.0-SNAPSHOT"
 
 repositories {
-    maven { url 'https://maven.aliyun.com/repository/public/' }
+    maven { url =uri("https://maven.aliyun.com/repository/public/") }
     mavenLocal()
     mavenCentral()
 }
