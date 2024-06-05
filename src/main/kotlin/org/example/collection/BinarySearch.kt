@@ -1,4 +1,4 @@
-package me.play.org.example.collection
+package org.example.collection
 
 fun <T : Comparable<T>> Array<T>.iterativeBinarySearch(target: T): Int {
     var hi = size - 1

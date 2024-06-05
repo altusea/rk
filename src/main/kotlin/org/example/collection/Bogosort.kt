@@ -1,4 +1,4 @@
-package me.play.org.example.collection
+package org.example.collection
 
 const val RAND_MAX = 32768 // big enough for this
 
