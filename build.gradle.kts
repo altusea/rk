@@ -1,6 +1,6 @@
 plugins {
-    kotlin("jvm") version "2.0.0"
-    kotlin("plugin.serialization") version "2.0.0"
+    kotlin("jvm") version "2.0.20"
+    kotlin("plugin.serialization") version "2.0.20"
 }
 
 group = "me.play"
@@ -19,7 +19,7 @@ dependencies {
     implementation("io.arrow-kt:arrow-optics")
     implementation("io.arrow-kt:arrow-fx-coroutines")
 
-    implementation("org.jetbrains.kotlinx:kotlinx-serialization-json:1.6.3")
+    implementation("org.jetbrains.kotlinx:kotlinx-serialization-json:1.7.1")
     implementation("io.github.reactivecircus.cache4k:cache4k:0.13.0")
 
     testImplementation(kotlin("test"))
